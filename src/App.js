@@ -116,7 +116,7 @@ function App() {
 
 							{/* TOPIC ROUTE */}
 							<Route path='/javascript_questions' children={<Topic data={questionData[0]} updateData={updateData} />} />
-							<Route path='/matrix' children={<Topic data={questionData[1]} updateData={updateData} />} />
+							<Route path='/coding_questions' children={<Topic data={questionData[1]} updateData={updateData} />} />
 							<Route path='/string' children={<Topic data={questionData[2]} updateData={updateData} />} />
 							<Route path='/search_sort' children={<Topic data={questionData[3]} updateData={updateData} />} />
 							<Route path='/linked_list' children={<Topic data={questionData[4]} updateData={updateData} />} />
