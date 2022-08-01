@@ -89,7 +89,7 @@ function App() {
 		<Router>
 			<div className={dark ? 'App dark' : 'App'}>
 				<h1 className='app-heading text-center mt-5' style={{ color: dark ? 'white' : '' }}>
-					450 DSA Cracker
+					Frontend practice daily 
 				</h1>
 
 				{questionData.length === 0 ? (
